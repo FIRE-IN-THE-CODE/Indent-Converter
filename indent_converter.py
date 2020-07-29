@@ -17,8 +17,9 @@ def usage():
     print("-o	--output	gives the name to the new converted file")
     print('-r   --repair    fixes the script to make all indents into 4 spaces.')
 
+    print('Author: www.github.com/FIRE-IN-THE-CODE')
 
-'''
+''' OUT FOR DEBUGGING
 def main():
     opts, args = getopt.getopt(sys.argv[1:], 'f:ho:', ['file=', 'help', 'output='])
 
@@ -75,7 +76,7 @@ def mixer():
 
         print('Value of the new_code list: ', new_code)         # Debugging
 
-    result_file = open('test.py', 'w')   # Should be file name
+    result_file = open('test.py', 'w')                          # 'test.py' for debugging
     for line in new_code:
         result_file.write(line)
     result_file.close()
@@ -85,7 +86,7 @@ def fixer():
     original_code_lines = []
     new_code_lines = []
 
-    file = open('test.py')      # Debugging
+    file = open('test.py')                                          # Debugging
     for line in file.readlines():
         original_code_lines.append(line)
     file.close()
