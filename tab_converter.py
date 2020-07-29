@@ -4,7 +4,7 @@ import random
 
 
 def usage():
-    print("Tab Converter: a small script used to reformat other python scripts"
+    print("Indent Converter: a small script used to reformat other python scripts"
           + " converting tabs into 4 spaces or vice versa.")
     print("\n")
     print("Note: it is recommended to backup any important scripts before "
