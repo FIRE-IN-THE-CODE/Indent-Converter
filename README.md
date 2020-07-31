@@ -1,8 +1,10 @@
-# Indent Converter
+<h1 align='center'>Indent Converter</h1>
+
+![Build](https://img.shields.io/badge/Build_Status-In_Progress-red)
+![Python](https://img.shields.io/badge/Python-3-blue)
+
 Indent Converter is a small scripted program intended to fix the indentation of other Python scripts by converting tabs to
 four spaces in accordance to the PEP 8 guide.
-
-<b>This is a pre-release and is not ready for use.</b>
 
 ## Requirements
 Requires Python3 to be installed.
